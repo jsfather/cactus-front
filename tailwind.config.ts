@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'shabnam-fd': ['var(--font-shabnam-fd)'],
+      },
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
