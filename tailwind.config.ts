@@ -12,6 +12,9 @@ export default {
         'shabnam-fd': ['var(--font-shabnam-fd)'],
       },
       colors: {
+        primary: {
+          DEFAULT: '#529743',
+        },
         background: 'var(--background)',
         foreground: 'var(--foreground)',
       },
