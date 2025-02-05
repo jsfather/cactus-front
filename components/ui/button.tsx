@@ -41,9 +41,10 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
           sizes[size],
           className
         )}
-        title={title}
         {...props}
-      />
+      >
+        {title}
+      </button>
     );
   }
 );
